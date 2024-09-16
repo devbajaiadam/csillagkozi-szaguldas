@@ -1,0 +1,178 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
+  <diagram name="Page-1" id="7nvYOw_i18pYTV3BVsW4">
+    <mxGraphModel dx="1193" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uCUTDOpJi0z06TZupSKV-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="200" width="340" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-3" value="Az oldalnak sugároznia kell a versenyek izgalmát, hogy minden látogató úgy érezze, mintha máris a versenypályán száguldozna a csillagok között! ✨" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="-160" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Elvárások:&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;6 oldal legyen&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Jegyvásárlási lehetőség&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Pilóta toborzási lehetőség&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-150" width="470" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Főoldal&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="150" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/picture-128.png" vertex="1" parent="1">
+          <mxGeometry x="145" y="200" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Üdvözlünk az űrhajóverseny univerzumában!&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="355" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-8" value="Navigációs sor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="205" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-10" value="Aztán alatta pár rövid, de inspiráló mondat arról, hogy miért különlegesek a versenyeink, hogy a galaxis legjobb pilótái vesznek részt, és hogy hogyan lehet jegyet szerezni, vagy akár jelentkezni pilótának!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="400" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="510" width="337.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-14" value="hírek szekció" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-15" value="legfrissebb eseményeket és eredményeket kiemeljük a versenyekről!&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="540" width="337.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-16" value="Visszaszámláló" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251.25" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-17" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="146.25" y="980" width="337.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-18" value="&amp;nbsp; Interaktív naptár" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="770" width="332.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-19" value="Videórész" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="860" width="332.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Galaktikus Száguldás&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="150" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="350" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-22" value="Navigációs sor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="200" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/picture-128.png;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="749.38" y="265" width="211.25" height="211.25" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Üdvözlünk a Galaktikus Száguldásban!&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="735" y="350" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-25" value="(csillogó háttér)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="825" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-27" value="&lt;strong&gt;Nagyméretű kép&lt;/strong&gt;:&lt;div&gt;ürhajós versenyes&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="360" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-28" value="&lt;li&gt;&lt;p&gt;&lt;strong&gt;Rövid bemutató szöveg&lt;/strong&gt;: Néhány mondat, hogy elmondjuk, miért különleges ez a verseny. Valami ilyesmi: „Csatlakozz a galaxis leggyorsabb pilótáihoz, ahol az űr határain túl versenyzünk, sebességre és ügyességre alapozva!” ✨&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;/p&gt;&lt;/li&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="692.5" y="495" width="325" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-29" value="&lt;li&gt;&lt;p&gt;&lt;strong&gt;Hírek szekció&lt;/strong&gt;: Egy rész a legfrissebb hírekkel, például a legutóbbi verseny győzteséről vagy új pilóták csatlakozásáról.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;/p&gt;&lt;/li&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="585" width="350" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-30" value="Visszaszámláló" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795.01" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-31" value="&amp;nbsp; Interaktív naptár" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="820" width="332.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-32" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="970" width="337.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="200" width="354.99" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-34" value="Navigációs sor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="205" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Űrhajóflotta&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1412.5" y="145" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-36" value="Ez az oldal bemutathatná a különböző űrhajókat, amikkel versenyzünk! Hiszen mi más ragadná meg jobban a látogatók figyelmét, mint az, hogy megismerhetik a lenyűgöző űrjárműveket!" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="130" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/picture-128.png" vertex="1" parent="1">
+          <mxGeometry x="1370" y="265" width="175" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-37" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Űrhajóflotta – A galaxis leggyorsabb versenyhajói!&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1363.75" y="335" width="187.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="440" width="350" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-41" value="Ürhajók bemutatása&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="585" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-42" value="&lt;li&gt;&lt;p&gt;&lt;strong&gt;Technikai adatok&lt;/strong&gt;: Minden hajónál szerepelhetnének a legfontosabb technikai információk, mint például sebesség, manőverezhetőség, és fegyverzet – hiszen azért néhány hajón talán akad egy-két „védelmi eszköz” is, ugye? 😉&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Interaktív elem&lt;/strong&gt;: Mit szólnál, ha lenne egy egyszerű animáció vagy interaktív rész, ahol a látogatók rákattinthatnának az űrhajókra, és azok forgathatóak lennének, hogy minden szögből megnézhessék őket? 🚀 (Tudom, ez lehet majd egy bonyolultabb fejlesztés lesz, de elképzelhető, hogy később bővítjük ezt!)&lt;/p&gt;&lt;/li&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="531.25" width="330" height="177.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-43" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1288.75" y="860" width="337.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="200" width="360" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-45" value="Navigációs sor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2092.5" y="205" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-46" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Pilóták Galériája&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="135" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-47" value="Ezen az oldalon bemutathatnánk a galaxis legjobb és legbátrabb pilótáit, akik részt vesznek a versenyeken! Ugye milyen izgalmas lenne megismerni őket? 🚀" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="120" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-48" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/picture-128.png" vertex="1" parent="1">
+          <mxGeometry x="2172.5" y="265" width="175" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-49" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Pilóták Galériája – A galaxis hősei&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2166.25" y="335" width="187.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-50" value="&lt;p&gt;A tartalom lehetne így:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Oldalcím&lt;/strong&gt;: „Pilóták Galériája – A galaxis hősei” – egy nagy és látványos cím, ami már azonnal sugallja, hogy itt a versenyek legnagyszerűbb résztvevőiről lesz szó!&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Pilóták bemutatása&lt;/strong&gt;: Minden pilótának saját kis szekciója lehetne az oldalon. Itt egy kép róluk (esetleg egy futurisztikus sisakban, vagy az űrhajójuk mellett állva), a nevük, és egy rövid leírás róluk:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;„Zara Starwind” – A galaxis legfiatalabb pilótája, aki már háromszor nyert bajnokságot! 🌠&lt;/li&gt;&lt;li&gt;„Kraynos Thunder” – A titokzatos pilóta, akiről senki sem tud semmit, de mindig győzelemre hajt! ⚡&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Eredmények&lt;/strong&gt;: Minden pilóta mellett ott lehetne a legfontosabb eredményeik listája, például hány versenyt nyertek meg, hányadik helyen állnak a ranglistán, és milyen hajót vezetnek.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Interjúk vagy idézetek&lt;/strong&gt;: Minden pilóta mellett lehetne egy rövid idézet tőlük, ahol megosztják a gondolataikat a versenyről. Valami ilyesmi: „A sebesség az életem – itt nincsenek határok!” vagy „Mindent megteszek, hogy elérjem a csillagokat!”&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Új pilóták jelentkezése&lt;/strong&gt;: A legvégén lehetne egy felhívás azoknak, akik új pilótaként csatlakoznának a versenyekhez. „Te is belevágnál? Jelentkezz most, és legyél te a galaxis következő legendája!&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="440" width="360" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2770" y="200" width="360" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-52" value="Navigációs sor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2782.5" y="205" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-53" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Versenypályák&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2865" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-54" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/picture-128.png" vertex="1" parent="1">
+          <mxGeometry x="2862.5" y="265" width="175" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-55" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Versenypályák – A galaxis legkeményebb kihívásai&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2856.25" y="335" width="187.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-56" value="&lt;p&gt;A tartalom pedig lehetne:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Oldalcím&lt;/strong&gt;: „Versenypályák – A galaxis legkeményebb kihívásai” – egy nagy, látványos felirat, amely rögtön megadja a sejtelmes, izgalmas hangulatot.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Pályák bemutatása&lt;/strong&gt;: Minden pályának lenne saját szekciója, ahol egy kép vagy illusztráció mutatja be a pályát. Mellé pedig egy rövid leírás, hogy milyen veszélyek és kihívások várnak a versenyzőkre:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;„Crater’s Edge”&lt;/strong&gt; – Egy hatalmas kráter szélén száguldó pálya, ahol a gravitáció folyamatosan változik! 🌑&lt;/li&gt;&lt;li&gt;&lt;strong&gt;„Nebula Maze”&lt;/strong&gt; – Egy sűrű ködfelhőn keresztül vezető pálya, ahol a látási viszonyok borzasztóak, de a sebességre szükség van! 🌌&lt;/li&gt;&lt;li&gt;&lt;strong&gt;„Frozen Rift”&lt;/strong&gt; – Egy jéghideg, fagyott bolygón húzódó pálya, ahol a versenyzőknek az időjárás viszontagságaival is meg kell küzdeniük! ❄️&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Pálya statisztikák&lt;/strong&gt;: Minden pályánál felsorolhatnánk a technikai részleteket, például a pálya hosszát, nehézségi fokát, és különleges kihívásait (gravitációs mezők, meteorok, fagyott terep, stb.).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Híres pillanatok&lt;/strong&gt;: Lehetne egy kis szekció, ahol bemutatunk néhány híres pillanatot az egyes pályákon történt versenyekből. Például: „A 207. verseny, ahol Zara Starwind átszáguldott a Nebula Maze ködén, és megnyerte a versenyt egy hajszállal!”&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Pálya választás a jövőbeli versenyekhez&lt;/strong&gt;: Esetleg egy kis interaktív szavazás, ahol a látogatók eldönthetnék, hogy a következő nagy verseny melyik pályán legyen! 🗳️ Ez feldobná az oldalt, és bevonná a közönséget is!&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2770" y="420" width="360" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3270" y="200" width="360" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-58" value="Navigációs sor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3282.5" y="210" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-59" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Jegyvásárlás&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3340" y="155" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-60" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/picture-128.png" vertex="1" parent="1">
+          <mxGeometry x="3362.5" y="270" width="175" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-61" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Vásárolj jegyet a galaxis legnagyobb űrhajóversenyére!&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3356.25" y="340" width="187.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uCUTDOpJi0z06TZupSKV-62" value="&lt;p&gt;A tartalom pedig lehetne:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Oldalcím&lt;/strong&gt;: „Vásárolj jegyet a galaxis legnagyobb űrhajóversenyére!” – valami nagyon hívogató, látványos felirat, ami rögtön megragadja a figyelmet.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Jegytípusok bemutatása&lt;/strong&gt;: Lehetne egy szekció, ahol a különböző jegytípusokat részletezzük:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Normál jegy&lt;/strong&gt; – Hozzáférés a versenyek fő nézőteréhez. 🎫&lt;/li&gt;&lt;li&gt;&lt;strong&gt;VIP jegy&lt;/strong&gt; – Extra kényelmi szolgáltatások, hozzáférés a pilóták zónájához és egy exkluzív találkozás a versenyzőkkel! 🏅&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Csillagközi Jegy&lt;/strong&gt; – Az űrben lebegő páholyból nézheted végig a versenyt, különleges kényelemmel és intergalaktikus élménnyel! 🌠 (Ezt persze inkább álmodozásnak szántam, de ki tudja, egyszer még megvalósul!)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Jegyárak&lt;/strong&gt;: Minden jegytípus mellett feltüntetnénk az árakat. Talán egy szép kis táblázatban lehetne ezt elhelyezni, hogy átlátható legyen, és mindenki könnyen megtalálja, amit keres.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Jegyvásárlási folyamat&lt;/strong&gt;: Egyszerű lépések leírása arról, hogyan vásárolhatják meg a jegyeket online. Ez lehet valami olyasmi, hogy:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Válassz egy versenyt!&lt;/li&gt;&lt;li&gt;Válaszd ki a jegytípust!&lt;/li&gt;&lt;li&gt;Add meg a részleteidet, és erősítsd meg a foglalásodat!&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Versenyek listája&lt;/strong&gt;: Egy gyors áttekintés a közelgő versenyekről, időpontokkal és helyszínekkel, hogy mindenki tudja, mikor hova érdemes jegyet váltani. Ez lehet egy lista vagy akár egy kis interaktív térkép is a galaxis versenypályáival.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Akciók és kedvezmények&lt;/strong&gt;: Egy külön szekció, ahol különleges ajánlatokat és akciókat hirdetünk. Például: „Vásárolj 2 jegyet, és a harmadikat ajándékba kapod!” vagy „Családi kedvezmények elérhetők!”&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="445" width="340" height="575" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
