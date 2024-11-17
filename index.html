@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="homePage.css">
     </head>
     <body>
+        <div class="stars"></div>
         <header class="navigation">
             <nav>
                 <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
@@ -23,21 +24,110 @@
         </header>
 
         <main>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="landing-pics-container">
+                <img src="/src/homepage/home_starship.webp" alt="starships">
+                <div class="content-overlay">
+                    <p class="liquid-text">Üdvözlünk a galaktikus száguldás oldalán!<p>
+                        <p class="about-the-race">
+                            Képzeld el, ahogy a csillagok között száguldasz, a galaxis leggyorsabb pilótái ellen versenyezve! A Galaktikus Száguldás nemcsak egy verseny – ez egy életre szóló kaland, ahol hírnév, dicsőség, és a galaktikus történelembe való beírás vár rád. Próbára teheted képességeidet, megmutathatod stratégiádat, és elérheted a végső győzelmet! A sebesség szerelmesei, itt az idő, hogy belevessétek magatokat az univerzum legnagyszabásúbb kihívásába. Ne hagyd ki – állj rajthoz és légy részese a történelemnek!
+                        </p>
+                    <p class="second-title">Csatlakozz a galaxis legizgalmasabb megmérettetéséhez!
+                    </p>
+                </div>
+            </div>
+            <div class="news-section">
+                <h2>Legfrissebb Hírek</h2>
+                <div class="news-item">
+                  <div class="news-title">1-2-3 rajt!</div>
+                  <div class="news-summary">A csillagközi versenyzők már a rajthoz állnak, készülj a galaxis legizgalmasabb futamára!</div>
+                </div>
+                <div class="news-item">
+                  <div class="news-title">A cuki gyilkos</div>
+                  <div class="news-summary">Egy új, veszélyes résztvevő csatlakozott a versenyhez. A cukiság nem mindig ártalmatlan!</div>
+                </div>
+                <div class="news-item">
+                  <div class="news-title">A ház mindig nyer</div>
+                  <div class="news-summary">A galaktikus fogadókörzet bemutatja: fogadj a kedvenc versenyződre!</div>
+                </div>
+              </div>
+              <div class="countdown-section">
+                <h2>Következő Csillagközi Verseny Kezdete:</h2>
+                <div id="countdown">
+                  <span id="days">00</span> nap
+                  <span id="hours">00</span> óra
+                  <span id="minutes">00</span> perc
+                  <span id="seconds">00</span> másodperc
+                </div>
+              </div>
+
+              <div class="calendar-section">
+                <h2>Naptár</h2>
+                <div class="calendar">
+                  <div class="calendar-header">
+                    <button id="prev-month">&lt;</button>
+                    <h3 id="month-year"></h3>
+                    <button id="next-month">&gt;</button>
+                  </div>
+                  <div class="calendar-days">
+                    <div class="days-header">
+                      <div>H</div>
+                      <div>K</div>
+                      <div>Sz</div>
+                      <div>Cs</div>
+                      <div>P</div>
+                      <div>Sz</div>
+                      <div>V</div>
+                    </div>
+                    <div class="days-grid" id="days-grid"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video-section">
+                <h2>Videók</h2>
+                <div class="video-grid">
+                  <div class="video-item">
+                    <video controls>
+                      <source src="video1.mp4" type="video/mp4">
+                      Az Ön böngészője nem támogatja a videó lejátszását.
+                    </video>
+                    <p>Videó cím 1</p>
+                  </div>
+                  <div class="video-item">
+                    <video controls>
+                      <source src="video2.mp4" type="video/mp4">
+                      Az Ön böngészője nem támogatja a videó lejátszását.
+                    </video>
+                    <p>Videó cím 2</p>
+                  </div>
+                  <div class="video-item">
+                    <video controls>
+                      <source src="video3.mp4" type="video/mp4">
+                      Az Ön böngészője nem támogatja a videó lejátszását.
+                    </video>
+                    <p>Videó cím 3</p>
+                  </div>
+                </div>
+              </div>
+              
+
+            <div class="content">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
         </main>
 
         <footer class="footer">
-            <img src="/src/rocket.png" alt="rocket">
-            <p>Csatlakozz a csapatunkhoz</p>
-            <img src="/src/spaceship.png" alt="rocket">
-        </footer>
-        <div class="stars"></div>
+            <div class="footer-content">
+              <p>© 2024 Csillagközi Száguldás. Minden jog fenntartva.</p>
+              <div class="footer-links">
+                <a href="#home">Kezdőlap</a>
+                <a href="#about">Rólunk</a>
+                <a href="#contact">Kapcsolat</a>
+              </div>
+            </div>
+          </footer>          
         <script src="globalScript.js"></script>
     </body>
 </html>
