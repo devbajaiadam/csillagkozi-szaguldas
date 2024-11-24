@@ -40,13 +40,11 @@ nav ul li a:hover {
     right: 20px;
 }
 
-/* Mobil nézethez alkalmazott stílusok */
-/* Mobil nézethez alkalmazott stílusok */
 @media (max-width: 768px) {
     nav {
         border-bottom: none;
-        position: relative; /* A menü megfelelő helyezéséhez */
-        z-index: 1000; /* Biztosítja, hogy a navigáció az oldal tetején legyen */
+        position: relative;
+        z-index: 1000;
     }
 
     nav ul {
@@ -59,7 +57,7 @@ nav ul li a:hover {
         padding-top: 1em;
         padding-bottom: 1em;
         background-color: rgba(0, 0, 0, 0.8);
-        z-index: 1001; /* A szöveg fölé helyezi a menüt */
+        z-index: 1001;
     }
 
     nav ul li {
@@ -79,17 +77,15 @@ nav ul li a:hover {
 
     .menu-icon {
         display: block;
-        z-index: 1002; /* A hamburger ikon mindig látható */
+        z-index: 1002;
     }
 
-    /* Amikor a menü aktív */
     nav ul.active {
         display: flex;
     }
 }
 
 
-/* Teljes háttér beállítása */
 html, body {
     margin: 0;
     background: linear-gradient(90deg, #0f0c29, #302b63, #24243e);
@@ -102,17 +98,16 @@ html, body {
 
 /* Csillagok konténer beállítása */
 .stars {
-    position: fixed; /* Teljes oldal felett lebeg */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
-    pointer-events: none; /* Nem akadályozza a kattintásokat */
-    z-index: -1; /* Háttérbe helyezés */
+    pointer-events: none;
+    z-index: -1;
 }
 
-/* Egyedi csillagok */
 .star {
     position: absolute;
     width: 2px;
@@ -123,7 +118,6 @@ html, body {
     animation: twinkle 3s infinite ease-in-out alternate, move 20s linear infinite;
 }
 
-/* Véletlenszerű csillag elhelyezés */
 .star:nth-child(1) { top: 20%; left: 15%; }
 .star:nth-child(2) { top: 50%; left: 80%; }
 .star:nth-child(3) { top: 75%; left: 45%; }
@@ -135,13 +129,11 @@ html, body {
 .star:nth-child(9) { top: 25%; left: 90%; }
 .star:nth-child(10) { top: 15%; left: 50%; }
 
-/* Csillogás effektus */
 @keyframes twinkle {
     from { opacity: 0.5; }
     to { opacity: 1; }
 }
 
-/* Mozgás effektus */
 @keyframes move {
     from {
         transform: translate(0px, 0px);
@@ -189,15 +181,15 @@ html, body {
 
   .landing-pics-container {
     position: relative;
-    width: 100%; /* A div szélessége a szülő eleméhez igazodik */
-    max-width: 1440px; /* Maximum szélesség beállítása */
-    margin: 0 auto; /* Középre igazítás */
-    overflow: hidden; /* Biztosítja, hogy semmi ne lógjon ki */  
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .landing-pics-container img {
-    width: 100%; /* A kép a div szélességéhez igazodik */
-    height: auto; /* Megtartja az arányokat */
+    width: 100%;
+    height: auto;
     opacity: .7;
 }
 
@@ -211,9 +203,9 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white; /* Szöveg színe */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Árnyék a szöveg alatt */
-    background: rgba(0, 0, 0, 0.4); /* Átlátszó sötét háttér */
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .liquid-text {
@@ -221,37 +213,33 @@ html, body {
     font-weight: bold;
     text-align: center;
     background: linear-gradient(90deg, red, orange, yellow, green, blue, purple, pink);
-    background-size: 300% 300%; /* Nagyobb mozgástér a dinamikus animációhoz */
+    background-size: 300% 300%;
     -webkit-background-clip: text;
     color: transparent;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Erősebb árnyék a szöveg körül */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
     animation: liquid-flow 6s infinite linear;
 }
 
-/* Folyékony mozgás animáció */
 @keyframes liquid-flow {
     0% { background-position: 0% 50%; }
     100% { background-position: 100% 50%; }
 }
-/* Reszponzív szövegek (telefonos nézet alatt) */
 @media (max-width: 768px) {
     .liquid-text {
-        font-size: 1.8em; /* Kisebb szövegméret telefonokon */
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Finomabb árnyék */
-        animation-duration: 8s; /* Lassabb animáció */
+        font-size: 1.8em;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+        animation-duration: 8s;
     }
 }
 
-/* Reszponzív szövegek nagyon kis képernyőkre (max 480px szélesség) */
 @media (max-width: 480px) {
     .liquid-text {
-        font-size: 1.5em; /* Még kisebb méret */
-        line-height: 1.2; /* Kisebb sormagasság */
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Kevésbé erőteljes árnyék */
+        font-size: 1.5em;
+        line-height: 1.2;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     }
 }
 
-/* Általános title stílusok */
 .main-title {
     font-size: 3em;
     font-weight: bold;
@@ -270,24 +258,22 @@ html, body {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Reszponzív szövegméretek (768px alatti nézethez) */
 @media (max-width: 768px) {
     .main-title {
-        font-size: 2.5em; /* Kisebb betűméret tableten */
+        font-size: 2.5em;
         line-height: 1.2;
         text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
     }
 
     .second-title {
-        font-size: 1.2em; /* Csökkentett méret */
+        font-size: 1.2em;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
 }
 
-/* Nagyon kis képernyők (480px alatti nézethez) */
 @media (max-width: 480px) {
     .main-title {
-        font-size: 2em; /* Még kisebb betűméret telefonon */
+        font-size: 2em;
         line-height: 1.1;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
@@ -300,28 +286,26 @@ html, body {
 }
 
 .about-the-race {
-    width: 80%; /* Alapértelmezett szélesség */
-    margin: 0 auto; /* Középre igazítás */
-    font-size: 1em; /* Alapértelmezett betűméret */
-    line-height: 1.5; /* Könnyebb olvashatóság */
-    text-align: justify; /* Igazítás */
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: justify;
 }
 
-/* Reszponzív stílus 768px alatti nézethez (tabletek) */
 @media (max-width: 768px) {
     .about-the-race {
-        width: 90%; /* Szélesebb elrendezés kisebb képernyőkön */
-        font-size: 0.9em; /* Kisebb betűméret */
-        text-align: left; /* Balra igazítás */
+        width: 90%;
+        font-size: 0.9em;
+        text-align: left;
     }
 }
 
-/* Reszponzív stílus 480px alatti nézethez (telefonok) */
 @media (max-width: 480px) {
     .about-the-race {
-        width: 95%; /* Szinte teljes szélesség */
-        font-size: 0.8em; /* Még kisebb betűméret */
-        line-height: 1.4; /* Tömörebb sorok */
-        text-align: left; /* Balra igazítás */
+        width: 95%;
+        font-size: 0.8em;
+        line-height: 1.4;
+        text-align: left;
     }
 }
