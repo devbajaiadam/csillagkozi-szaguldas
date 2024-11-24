@@ -3,63 +3,6 @@
     margin: auto;
 }
 
-.landing-pics-container {
-    position: relative;
-    width: 100%; /* A div szélessége a szülő eleméhez igazodik */
-    max-width: 1440px; /* Maximum szélesség beállítása */
-    margin: 0 auto; /* Középre igazítás */
-    overflow: hidden; /* Biztosítja, hogy semmi ne lógjon ki */  
-}
-
-.landing-pics-container img {
-    width: 100%; /* A kép a div szélességéhez igazodik */
-    height: auto; /* Megtartja az arányokat */
-    opacity: .5;
-}
-
-.content-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white; /* Szöveg színe */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Árnyék a szöveg alatt */
-    background: rgba(0, 0, 0, 0.4); /* Átlátszó sötét háttér */
-}
-
-.main-title {
-    font-size: 2em;
-}
-
-.about-the-race {
-    width: 80%;
-}
-
-.second-title {
-    font-size: 1em;
-}
-
-.liquid-text {
-    font-size: 2.5em;
-    font-weight: bold;
-    text-align: center;
-    background: linear-gradient(90deg, #3627be, #564ad8, #9191f6);
-    background-size: 200% 200%; /* A nagyobb méret a dinamikus mozgáshoz */
-    -webkit-background-clip: text;
-    color: transparent;
-    animation: liquid-flow 10s infinite linear;
-  }
-  
-  @keyframes liquid-flow {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 100% 50%; }
-  }
-
 .news-section {
 max-width: 800px;
 margin: 20px auto;

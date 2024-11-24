@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .track-section {
+    max-width: 1440px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #ff4500;
+  }
+  
+  .track-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .track-card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .track-card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .track-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .track-stats ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .track-stats ul li {
+    margin: 10px 0;
+  }
+  
+  .famous-moments {
+    margin-bottom: 30px;
+  }
+  
+  .future-voting form {
+    display: inline-block;
+    text-align: left;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .future-voting label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .future-voting button {
+    margin-top: 10px;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .future-voting button:hover {
+    background-color: #ff6347;
+  }  

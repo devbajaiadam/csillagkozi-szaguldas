@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+  }
+  
+  .pilot-gallery {
+    max-width: 1440px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .pilot-gallery h1 {
+    color: #ff4500;
+    margin-bottom: 20px;
+  }
+  
+  .pilot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .pilot-card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .pilot-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .pilot-card h2 {
+    margin: 10px 0;
+    color: #ff6347;
+  }
+  
+  .pilot-quote {
+    font-style: italic;
+    color: #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .pilot-details p {
+    margin: 5px 0;
+  }
+  
+  .pilot-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pilot-details li {
+    margin: 5px 0;
+  }
+  
+  .new-pilot-callout {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .new-pilot-callout h2 {
+    color: #ff4500;
+  }
+  
+  .new-pilot-callout button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .new-pilot-callout button:hover {
+    background-color: #ff4500;
+  }
+  

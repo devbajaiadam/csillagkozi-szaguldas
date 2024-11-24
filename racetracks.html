@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrhajóflotta - Galaktikus Száguldás</title>
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/src/racetracks/style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <header class="navigation">
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul id="menu">
+                <li><a href="/index.html">Főoldal</a></li>
+                <li><a href="/spaceshipfleet.html">Űrhajóflotta</a></li>
+                <li><a href="/pilotgallery.html">Pilóták galériája</a></li>
+                <li><a href="/racetracks.html">Versenypályák</a></li>
+                <li><a href="/orderticket.html">Jegyvásárlás</a></li>
+                <li><a href="/joinus.html">Csatlakozz a versenyhez!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="landing-pics-container">
+            <img src="/src/racetracks/racetracks.webp" alt="starshipFleet">
+            <div class="content-overlay">
+                <p class="liquid-text">Köszöntünk a versenypályák oldalon!<p>
+                    <p class="about-the-race">
+                        A galaxis legmodernebb és legfélelmetesebb flottáját látod magad előtt. Minden egyes hajó gondosan megtervezett mérnöki csoda, amely az innováció és a technológia csúcsát képviseli. Az űrhajóflottánk nemcsak a versenyek sebességét és izgalmát, hanem a galaktikus béke és felfedezés szimbólumát is hordozza.
+                    </p>
+                <p class="second-title">Nézz körbe az űrhajóink között!
+                </p>
+            </div>
+        </div>
+        <section class="track-section">
+            <h1>Versenypályák</h1>
+        
+            <!-- Pályák bemutatása -->
+            <div class="track-gallery">
+              <div class="track-card">
+                <img src="craters-edge.png" alt="Crater's Edge pálya képe">
+                <h2>Crater's Edge</h2>
+                <p>Egy hatalmas kráter szélén száguldó pálya, ahol a gravitáció folyamatosan változik! 🌑</p>
+              </div>
+              <div class="track-card">
+                <img src="nebula-maze.png" alt="Nebula Maze pálya képe">
+                <h2>Nebula Maze</h2>
+                <p>Egy sűrű ködfelhőn keresztül vezető pálya, ahol a látási viszonyok borzasztóak, de a sebességre szükség van! 🌫️</p>
+              </div>
+              <div class="track-card">
+                <img src="frozen-rift.png" alt="Frozen Rift pálya képe">
+                <h2>Frozen Rift</h2>
+                <p>Egy jéghídgége, fagyott bolygón húzódó pálya, ahol az időjárás viszontagságaival is meg kell küzdeniük! ❄️</p>
+              </div>
+            </div>
+        
+            <!-- Pálya statisztikák -->
+            <div class="track-stats">
+              <h2>Pálya Statisztikák</h2>
+              <ul>
+                <li><strong>Crater's Edge:</strong> 5 km hosszú, változó gravitációs mezők, meteor veszélyek.</li>
+                <li><strong>Nebula Maze:</strong> 8 km hosszú, sűrű köd, alacsony láthatóság, sebesség kihívások.</li>
+                <li><strong>Frozen Rift:</strong> 6 km hosszú, jeges talaj, viharos szél, fagyott akadályok.</li>
+              </ul>
+            </div>
+        
+            <!-- Híres pillanatok -->
+            <div class="famous-moments">
+              <h2>Híres Pillanatok</h2>
+              <p>„A 207. verseny, ahol Zara Starwind átszáguldott a Nebula Maze ködén, és megnyerte a versenyt egy hajszállal!”</p>
+            </div>
+        
+            <!-- Jövőbeli versenyek szavazás -->
+            <div class="future-voting">
+              <h2>Szavazz a következő verseny helyszínére!</h2>
+              <form>
+                <label>
+                  <input type="radio" name="track" value="Craters Edge">
+                  Crater's Edge
+                </label><br>
+                <label>
+                  <input type="radio" name="track" value="Nebula Maze">
+                  Nebula Maze
+                </label><br>
+                <label>
+                  <input type="radio" name="track" value="Frozen Rift">
+                  Frozen Rift
+                </label><br>
+                <button type="submit">Szavazok</button>
+              </form>
+            </div>
+          </section>
+    </main>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <p>© 2024 Csillagközi Száguldás. Minden jog fenntartva.</p>
+        <div class="footer-links">
+        <a href="#home">Kezdőlap</a>
+        <a href="#about">Rólunk</a>
+        <a href="#contact">Kapcsolat</a>
+        </div>
+    </div>
+    </footer>          
+<script src="globalScript.js"></script>
+</html>

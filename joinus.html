@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrhajóflotta - Galaktikus Száguldás</title>
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/src/joinus/style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <header class="navigation">
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul id="menu">
+                <li><a href="/index.html">Főoldal</a></li>
+                <li><a href="/spaceshipfleet.html">Űrhajóflotta</a></li>
+                <li><a href="/pilotgallery.html">Pilóták galériája</a></li>
+                <li><a href="/racetracks.html">Versenypályák</a></li>
+                <li><a href="/orderticket.html">Jegyvásárlás</a></li>
+                <li><a href="/joinus.html">Csatlakozz a versenyhez!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="join-race">
+            <h1>Csatlakozz a Versenyhez!</h1>
+            <p>Szeretnél részt venni a galaxis legizgalmasabb versenyein? Töltsd ki az alábbi űrlapot, és légy te is a csillagok bajnoka!</p>
+            <form id="join-form">
+              <div class="form-group">
+                <label for="name">Név:</label>
+                <input type="text" id="name" name="name" placeholder="Add meg a neved" required>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Add meg az e-mail címed" required>
+              </div>
+              <div class="form-group">
+                <label for="ship">Űrhajó neve:</label>
+                <input type="text" id="ship" name="ship" placeholder="Mi az űrhajód neve?" required>
+              </div>
+              <div class="form-group">
+                <label for="experience">Versenyzési tapasztalat:</label>
+                <select id="experience" name="experience" required>
+                  <option value="" disabled selected>Válaszd ki</option>
+                  <option value="beginner">Kezdő</option>
+                  <option value="intermediate">Haladó</option>
+                  <option value="expert">Profi</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Üzenet:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Írj egy rövid üzenetet (pl. miért akarsz részt venni?)"></textarea>
+              </div>
+              <button type="submit">Jelentkezem</button>
+            </form>
+          </section>
+    </main>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <p>© 2024 Csillagközi Száguldás. Minden jog fenntartva.</p>
+        <div class="footer-links">
+        <a href="#home">Kezdőlap</a>
+        <a href="#about">Rólunk</a>
+        <a href="#contact">Kapcsolat</a>
+        </div>
+    </div>
+    </footer>          
+<script src="globalScript.js"></script>
+<script src="/src/joinus/script.js"></script>
+</html>

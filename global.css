@@ -41,9 +41,12 @@ nav ul li a:hover {
 }
 
 /* Mobil nézethez alkalmazott stílusok */
+/* Mobil nézethez alkalmazott stílusok */
 @media (max-width: 768px) {
     nav {
         border-bottom: none;
+        position: relative; /* A menü megfelelő helyezéséhez */
+        z-index: 1000; /* Biztosítja, hogy a navigáció az oldal tetején legyen */
     }
 
     nav ul {
@@ -56,18 +59,27 @@ nav ul li a:hover {
         padding-top: 1em;
         padding-bottom: 1em;
         background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1001; /* A szöveg fölé helyezi a menüt */
     }
 
     nav ul li {
         margin: 10px 0;
         text-align: center;
     }
-    nav ul li:hover {
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover {
         color: lightblue;
     }
 
     .menu-icon {
         display: block;
+        z-index: 1002; /* A hamburger ikon mindig látható */
     }
 
     /* Amikor a menü aktív */
@@ -80,8 +92,8 @@ nav ul li a:hover {
 /* Teljes háttér beállítása */
 html, body {
     margin: 0;
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-    height: 100%;
+    background: linear-gradient(90deg, #0f0c29, #302b63, #24243e);
+    height: 100vh;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -173,4 +185,143 @@ html, body {
   
   .footer-links a:hover {
     color: #ff4500;
-  }  
+  }
+
+  .landing-pics-container {
+    position: relative;
+    width: 100%; /* A div szélessége a szülő eleméhez igazodik */
+    max-width: 1440px; /* Maximum szélesség beállítása */
+    margin: 0 auto; /* Középre igazítás */
+    overflow: hidden; /* Biztosítja, hogy semmi ne lógjon ki */  
+}
+
+.landing-pics-container img {
+    width: 100%; /* A kép a div szélességéhez igazodik */
+    height: auto; /* Megtartja az arányokat */
+    opacity: .7;
+}
+
+.content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Szöveg színe */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Árnyék a szöveg alatt */
+    background: rgba(0, 0, 0, 0.4); /* Átlátszó sötét háttér */
+}
+
+.liquid-text {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple, pink);
+    background-size: 300% 300%; /* Nagyobb mozgástér a dinamikus animációhoz */
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Erősebb árnyék a szöveg körül */
+    animation: liquid-flow 6s infinite linear;
+}
+
+/* Folyékony mozgás animáció */
+@keyframes liquid-flow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+/* Reszponzív szövegek (telefonos nézet alatt) */
+@media (max-width: 768px) {
+    .liquid-text {
+        font-size: 1.8em; /* Kisebb szövegméret telefonokon */
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Finomabb árnyék */
+        animation-duration: 8s; /* Lassabb animáció */
+    }
+}
+
+/* Reszponzív szövegek nagyon kis képernyőkre (max 480px szélesség) */
+@media (max-width: 480px) {
+    .liquid-text {
+        font-size: 1.5em; /* Még kisebb méret */
+        line-height: 1.2; /* Kisebb sormagasság */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Kevésbé erőteljes árnyék */
+    }
+}
+
+/* Általános title stílusok */
+.main-title {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.second-title {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Reszponzív szövegméretek (768px alatti nézethez) */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2.5em; /* Kisebb betűméret tableten */
+        line-height: 1.2;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .second-title {
+        font-size: 1.2em; /* Csökkentett méret */
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* Nagyon kis képernyők (480px alatti nézethez) */
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 2em; /* Még kisebb betűméret telefonon */
+        line-height: 1.1;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .second-title {
+        font-size: 1em;
+        margin: 5px 0;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    }
+}
+
+.about-the-race {
+    width: 80%; /* Alapértelmezett szélesség */
+    margin: 0 auto; /* Középre igazítás */
+    font-size: 1em; /* Alapértelmezett betűméret */
+    line-height: 1.5; /* Könnyebb olvashatóság */
+    text-align: justify; /* Igazítás */
+}
+
+/* Reszponzív stílus 768px alatti nézethez (tabletek) */
+@media (max-width: 768px) {
+    .about-the-race {
+        width: 90%; /* Szélesebb elrendezés kisebb képernyőkön */
+        font-size: 0.9em; /* Kisebb betűméret */
+        text-align: left; /* Balra igazítás */
+    }
+}
+
+/* Reszponzív stílus 480px alatti nézethez (telefonok) */
+@media (max-width: 480px) {
+    .about-the-race {
+        width: 95%; /* Szinte teljes szélesség */
+        font-size: 0.8em; /* Még kisebb betűméret */
+        line-height: 1.4; /* Tömörebb sorok */
+        text-align: left; /* Balra igazítás */
+    }
+}

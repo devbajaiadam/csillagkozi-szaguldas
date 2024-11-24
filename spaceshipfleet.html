@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrhajóflotta - Galaktikus Száguldás</title>
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/src/spaceshipfleet/style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <header class="navigation">
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul id="menu">
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="/spaceshipfleet.html">Űrhajóflotta</a></li>
+                <li><a href="/pilotgallery.html">Pilóták galériája</a></li>
+                <li><a href="/racetracks.html">Versenypályák</a></li>
+                <li><a href="/orderticket.html">Jegyvásárlás</a></li>
+                <li><a href="/joinus.html">Csatlakozz a versenyhez!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="landing-pics-container">
+            <img src="/src/spaceshipfleet/starshipFleet.webp" alt="starshipFleet">
+            <div class="content-overlay">
+                <p class="liquid-text">Íme az űrhajóflotta!<p>
+                    <p class="about-the-race">
+                        A galaxis legmodernebb és legfélelmetesebb flottáját látod magad előtt. Minden egyes hajó gondosan megtervezett mérnöki csoda, amely az innováció és a technológia csúcsát képviseli. Az űrhajóflottánk nemcsak a versenyek sebességét és izgalmát, hanem a galaktikus béke és felfedezés szimbólumát is hordozza.
+                    </p>
+                <p class="second-title">Nézz körbe az űrhajóink között!
+                </p>
+            </div>
+        </div>
+        <section class="fleet-section">
+            <h1>Űrhajóflotta</h1>
+            <p>A galaxis legmodernebb és legfélelmetesebb flottáját látod magad előtt. Minden egyes hajó gondosan megtervezett mérnöki csoda, amely az innováció és a technológia csúcsát képviseli.</p>
+            <div class="fleet-container">
+              <div class="spaceship" onclick="rotateSpaceship(this)">
+                <img src="/src/spaceshipfleet/ship1.webp" alt="Űrhajó 1">
+                <p>"Starblade X"</p>
+                <p>500 tonna</p>
+                <p>1.9 turbó hiperhajtómű</p>
+              </div>
+              <div class="spaceship" onclick="rotateSpaceship(this)">
+                <img src="/src/spaceshipfleet/ship2.webp" alt="Űrhajó 2">
+                <p>"Sebes Sarolta"</p>
+                <p>700 tonna</p>
+                <p>3.0 fénysikó</p>
+              </div>
+              <div class="spaceship" onclick="rotateSpaceship(this)">
+                <img src="/src/spaceshipfleet/ship3.webp" alt="Űrhajó 3">
+                <p>"Villám Vex"</p>
+                <p>200 tonna</p>
+                <p>Lézerhajtómű</p>
+              </div>
+            </div>
+            <div class="fleet-container">
+                <div class="spaceship" onclick="rotateSpaceship(this)">
+                    <img src="/src/spaceshipfleet/ship4.webp" alt="Űrhajó 1">
+                    <p></p>
+                    <p>200 tonna</p>
+                    <p>Lézerhajtómű</p>
+                </div>
+                <div class="spaceship" onclick="rotateSpaceship(this)">
+                    <img src="/src/spaceshipfleet/ship5.webp" alt="Űrhajó 1">
+                    <p>Űrhajó 1</p>
+                </div>
+                <div class="spaceship" onclick="rotateSpaceship(this)">
+                    <img src="/src/spaceshipfleet/ship6.webp" alt="Űrhajó 1">
+                    <p>Űrhajó 1</p>
+                </div>
+            </div>
+          </section>
+    </main>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+      <p>© 2024 Csillagközi Száguldás. Minden jog fenntartva.</p>
+      <div class="footer-links">
+        <a href="#home">Kezdőlap</a>
+        <a href="#about">Rólunk</a>
+        <a href="#contact">Kapcsolat</a>
+      </div>
+    </div>
+  </footer>          
+<script src="globalScript.js"></script>
+<script src="/src/spaceshipfleet/script.js"></script>
+</html>
